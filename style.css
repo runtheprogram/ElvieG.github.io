@@ -1,0 +1,91 @@
+* {
+    margin: 7px;
+    padding:0px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #131313;
+    /*background-image: url(IMAGES/bgi.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width:auto;*/
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    justify-content: space-between;
+}
+
+.logo{
+    color:#FFD700;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 60px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: #FFD700;
+    display: block;
+    padding: 10px 20px;
+    /*border-radius: 50px;
+    background-color: gray; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    /*background-color: khaki;
+    border-radius: 20px; */
+    text-align: left;
+    float:left;
+
+}
+
+nav ul li a:hover{
+    text-decoration:double;
+    text-transform:uppercase;
+    color: whitesmoke;
+}
+.quotes {
+    text-align: right;
+    margin-right:65px ;
+
+}
+
+.p1 {
+    color: #FFD700;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 230px;
+    font-size: 40px;
+    
+}
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic ;
+    color:whitesmoke;
+
+}
